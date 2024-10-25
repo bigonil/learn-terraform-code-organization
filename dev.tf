@@ -3,6 +3,7 @@
 
 provider "aws" {
   region = var.region
+  profile = "lb-aws-admin"
 }
 
 resource "random_pet" "petname" {
